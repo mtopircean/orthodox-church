@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=EB+Garamond&family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    font-weight: 200;
+    color: #4d4b41;
+}
+
+/* Header and Logo */
+
+header {
+    font-family: Poppins, sans-serif;
+background-color: #fafafa;
+width: 100%;
+height: auto;
+position: fixed;
+}
+
+#logo {
+    color:#223657;
+    float: left;
+    margin-left: 20px;
+    width: 400px;
+    text-align: left;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#menu #logo {
+line-height: 100px;
+}
+
+#menu {
+    color:#242424;
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+    font-size: x-large;
+    line-height: 100px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    margin: 20px;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #242424;
+}
