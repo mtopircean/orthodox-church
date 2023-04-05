@@ -10,16 +10,18 @@
 body {
     font-weight: 200;
     color: #4d4b41;
+    background-color: #f0f2f5;
 }
 
 /* Header and Logo */
 
 header {
     font-family: Poppins, sans-serif;
-background-color: #fafafa;
-width: 100%;
-height: auto;
-position: fixed;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    padding: 2px;
 }
 
 #logo {
