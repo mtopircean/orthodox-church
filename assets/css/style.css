@@ -86,3 +86,10 @@ line-height: 100px;
     bottom: 10px;
     right: 10px;
 }
+
+/* Easter photo and text */
+
+#easter-photo {
+    background: url('../images/easter-photo.jpg') no-repeat center center;
+    height: 100%;
+}
