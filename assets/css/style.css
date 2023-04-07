@@ -125,7 +125,7 @@ letter-spacing: 3px;
     float: left;
     text-align: center;
     width: 50%;
-    padding-bottom: 20px;
+    padding: 20px;
     height: 400px;
 }
 
@@ -149,8 +149,8 @@ letter-spacing: 3px;
 #events {
     float: right;
     text-align: center;
-    width: 50%;
-    padding-top: 40px;
+    width: 40%;
+    padding: 20px;
     line-height: 2;
     height: 400px;
 }
@@ -159,16 +159,15 @@ letter-spacing: 3px;
     float: left;
     text-align: center;
     width: 50%;
-    padding-top: 40px;
+    padding: 20px;
     line-height: 2;
 }
 
 #easter-photo {
-    background: none;
+    display: flex;
     float: right;
     background: url('../images/easter-photo.jpg') no-repeat center center;
     width: 50%;
-    height: 100%;
 }
 
 footer {
