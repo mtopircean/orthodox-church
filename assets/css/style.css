@@ -14,6 +14,8 @@ body {
     color: #4d4b41;
     background-color: #f0f2f5;
     letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header and Logo */
@@ -67,15 +69,15 @@ letter-spacing: 3px;
 }
 
 .red {
-    color: rgb(125, 0, 0);
+    color: rgb(185, 6, 6);
 }
 
 .blue {
-    color: rgb(28, 28, 66);
+    color: rgb(44, 44, 182);
 }
 
 .yellow {
-    color: rgb(106, 120, 0);
+    color: rgb(220, 200, 17);
 }
 
 /* front main image and text */
@@ -86,7 +88,7 @@ letter-spacing: 3px;
     position: relative;
     width: 100%;
     height: 700px;
-    margin-top: 20px;
+    margin-top: 0px;
 
 }
 
@@ -111,11 +113,6 @@ letter-spacing: 3px;
 
 /* Easter photo and text */
 
-#easter-photo {
-    background: url('../images/easter-photo.jpg') no-repeat center center;
-    height: 100%;
-}
-
 #service {
     width: 50%;
     text-align: center;
@@ -129,6 +126,7 @@ letter-spacing: 3px;
     text-align: center;
     width: 50%;
     padding-bottom: 20px;
+    height: 400px;
 }
 
 #service-table table {
@@ -152,13 +150,42 @@ letter-spacing: 3px;
     float: right;
     text-align: center;
     width: 50%;
+    padding-top: 40px;
+    line-height: 2;
+    height: 400px;
 }
 
-#events h2 h3 h4 {
+#quote {
     float: left;
     text-align: center;
     width: 50%;
     padding-top: 40px;
-    padding-bottom: 20px;
-    clear: both;
+    line-height: 2;
 }
+
+#easter-photo {
+    background: none;
+    float: right;
+    background: url('../images/easter-photo.jpg') no-repeat center center;
+    width: 50%;
+    height: 100%;
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
+    
+footer ul {
+    list-style-type: none;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      
+      footer a {
+        text-align: left;
+        font-size: x-large;
+      }
