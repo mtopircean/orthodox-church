@@ -183,3 +183,11 @@ footer ul {
         font-size: x-large;
         text-decoration: none;
       }
+
+      /* contact page */
+
+      #contact-body {
+        background: url('../images/pexels-ron-lach-10610265.jpg') no-repeat center center;
+        background-size: cover;
+        height: 1000px;
+      }
