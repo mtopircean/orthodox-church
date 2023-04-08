@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Bitter', sans-serif;;
+    font-family: 'Bitter', sans-serif;
     font-weight: 200;
     color: #4d4b41;
     background-color: #f0f2f5;
@@ -191,3 +191,46 @@ footer ul {
         background-size: cover;
         height: 1000px;
       }
+
+      .form {
+        position: absolute;
+        margin: 400px 10% 0 0;
+        background-color: rgba(132, 132, 135, 0.399);
+        color: white;
+        padding: 40px;
+        border-radius: 2%;
+        margin-left: 10%;
+        width: 40%;
+        border: rgb(172, 171, 171) solid 1px;
+        
+      }
+    input {
+        display: inline-block;
+    }
+    label {
+        padding-right: 60px;
+        order: 1;
+        margin-left: 10px;
+    }
+
+    input {
+        order: 2;
+        margin-right: 10%;
+        float: right;
+        background-color: whitesmoke;
+        width: 500px;
+
+    }
+    input
+
+    #join-button {
+        padding: 50px;
+        border: white solid 2px;
+        background-color: rgb(82, 82, 107);
+        color: rgb(255, 255, 255);
+        font-size: large;
+        font-style: 'Bitter', sans-serif;
+        border-radius: 10px;float: left;
+        float: left;
+        width: 100px;
+    }
