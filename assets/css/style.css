@@ -26,7 +26,7 @@ header {
     background-color: white;
     width: 100%;
     height: auto;
-    position: fixed;
+    position: sticky;
     z-index: 100;
 }
 
@@ -168,6 +168,7 @@ footer {
     height: 70px;
     width: 100%;
     background-color: white;
+
 }
     
 footer ul {
@@ -233,4 +234,24 @@ footer ul {
         border-radius: 10px;float: left;
         float: left;
         width: 100px;
+    }
+
+    #map-kilkenny {
+        position: absolute;
+        float: right;
+        padding: 40px;
+        border-radius: 2%;
+        margin-right: 10%;
+        width: 20%;
+        margin-top: 1000px;
+    }
+
+    /* about page */
+
+    #about-us {
+        float: left;
+        text-align: center;
+        width: 50%;
+        padding: 20px;
+        line-height: 2;
     }
