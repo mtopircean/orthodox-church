@@ -16,6 +16,7 @@ body {
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 /* Header and Logo */
@@ -163,13 +164,6 @@ letter-spacing: 3px;
     line-height: 2;
 }
 
-#easter-photo {
-    display: flex;
-    float: right;
-    background: url('../images/easter-photo.jpg') no-repeat center center;
-    width: 50%;
-}
-
 footer {
     height: 70px;
     width: 100%;
@@ -187,4 +181,5 @@ footer ul {
       footer a {
         text-align: left;
         font-size: x-large;
+        text-decoration: none;
       }
